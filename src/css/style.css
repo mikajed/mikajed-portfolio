@@ -35,7 +35,7 @@ h1 .ausrufe {
 
 .navbar {
     width: 100%;
-    height: 7.5rem;
+    height: 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,7 +76,7 @@ h1 .ausrufe {
 }
 
 #landing {
-    height: 90vh;
+    height: 92vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -99,6 +99,8 @@ h1 .ausrufe {
 
 .hero {
     z-index: 2;
+    position: absolute;
+    top: 40%;
 }
 
 .hero a {
