@@ -151,15 +151,15 @@ h2 {
     z-index: 1;
 }
 
-#about .info {
+#about .sectionContent {
     width: 40%;
 }
 
-#about .info p:nth-child(2) {
+#about .sectionContent p:nth-child(2) {
     margin-bottom: 1rem;
 }
 
-#about .info img:nth-child(4) {
+#about .sectionContent img:nth-child(4) {
     mix-blend-mode: color-burn;
     position: relative;
     left: -0.5rem;
@@ -179,3 +179,16 @@ h2 {
 }
 
 /* === projekte section === */
+
+#projekte {
+    height: 45vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #bcb8b1;
+    position: relative;
+    color: #463f3a;
+    padding: 0 5rem;
+}
+
