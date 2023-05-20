@@ -88,6 +88,7 @@ h1 .ausrufe {
     left: 0;
     bottom: -2rem;
     z-index: 1;
+    pointer-events: none;
 }
 
 #landing .topRightCircle {
@@ -95,6 +96,7 @@ h1 .ausrufe {
     right: 0;
     top: -10rem;
     z-index: 1;
+    pointer-events: none;
 }
 
 .hero {
@@ -142,6 +144,7 @@ h2 {
     left: 0;
     bottom: 0;
     z-index: 1;
+    pointer-events: none;
 }
 
 #about .topRightCircle {
@@ -149,6 +152,7 @@ h2 {
     right: 0;
     top: 0;
     z-index: 1;
+    pointer-events: none;
 }
 
 #about .sectionContent {
@@ -211,6 +215,7 @@ h2 {
     right: 25rem;
     top: 0;
     z-index: 1;
+    pointer-events: none;
 }
 
 
