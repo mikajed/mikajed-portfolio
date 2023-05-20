@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #463f3a;
     font-family: 'Noto Sans', sans-serif;
@@ -166,7 +170,10 @@ h2 {
     gap: 1rem;
 }
 
-#about .socialIcons img {
+#about .socialIcons svg {
     width: 2.5rem;
     height: 2.5rem;
+    color: #e0afa0;
 }
+
+/* === projekte section === */
