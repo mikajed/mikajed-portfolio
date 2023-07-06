@@ -19,7 +19,7 @@ h1 {
     font-weight: 700;
     line-height: 4.5rem;
     z-index: 2;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 h1 .webDev {
@@ -92,6 +92,7 @@ h1 .ausrufe {
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.3s ease;
+    font-weight: 700;
     z-index: 2;
 }
 
@@ -145,17 +146,22 @@ h1 .ausrufe {
     transition: 0.3s ease;
 }
 
+.hero a:nth-of-type(1) {
+    background-color: #e0afa0;
+    color: #463f3a;
+}
+
+.hero a:hover:nth-of-type(1) {
+    background: transparent;
+    color: #bcb8b1;
+}
+
 .hero a:hover {
     color: #463f3a;
     background-color: #e0afa0;
 }
 
 /* === about section === */
-
-h2 {
-    color: #463f3a;
-}
-
 #about {
     width: 100%;
     display: flex;
@@ -184,14 +190,10 @@ h2 {
 }
 
 #about .sectionContent {
-    width: 50%;
+    width: 40%;
 }
 
-#about .sectionContent p:nth-child(2) {
-    margin-bottom: 1rem;
-}
-
-#about .sectionContent img:nth-child(4) {
+.sectionContent img:nth-child(4) {
     mix-blend-mode: color-burn;
     position: relative;
     left: -0.5rem;
