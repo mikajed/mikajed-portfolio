@@ -190,7 +190,8 @@ h1 .ausrufe {
 }
 
 #about .sectionContent {
-    width: 40%;
+    width: 80%;
+    align-items: center;
 }
 
 .sectionContent img:nth-child(4) {
@@ -248,4 +249,5 @@ h1 .ausrufe {
     pointer-events: none;
 }
 
+/* === footer section === */
 
