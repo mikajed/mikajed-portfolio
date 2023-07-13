@@ -134,7 +134,12 @@ h1 .ausrufe {
 .hero {
     z-index: 2;
     position: absolute;
-    top: 40%;
+    top: 35%;
+    padding: 0 5rem;
+}
+
+.hero h1 {
+    width: 80%;
 }
 
 .hero a {
@@ -172,7 +177,7 @@ h1 .ausrufe {
     background-color: #8a817c;
     position: relative;
     color: #bcb8b1;
-    padding: 1rem 5rem;
+    padding: 1rem 2rem;
 }
 
 #about .me {
@@ -180,7 +185,11 @@ h1 .ausrufe {
     border: 1px solid #bcb8b1;
     border-radius: 20px;
     filter: sepia(30%);
+}
 
+#about p:nth-of-type(1) {
+    font-weight: 700;
+    color: #463f3a;
 }
 
 #about .leftBottomCircle {
@@ -212,7 +221,7 @@ h1 .ausrufe {
 #about .socialIcons svg {
     width: 2.5rem;
     height: 2.5rem;
-    color: #e0afa0;
+    color: #bcb8b1;
 }
 
 /* === projekte section === */
