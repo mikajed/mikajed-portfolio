@@ -33,6 +33,13 @@ h1 .ausrufe {
     font-size: 6.75rem;
 }
 
+h3 {
+    font-size: 3rem;
+    color: #bcb8b1;
+    text-transform: lowercase;
+    text-decoration: #bcb8b1 wavy underline;
+}
+
 /* COLUMNS */
 .two-column {
     width: 100%;
@@ -117,8 +124,8 @@ h1 .ausrufe {
 
 #landing .leftBottomCircle {
     position: absolute;
-    left: 0;
-    bottom: -2rem;
+    left: -15rem;
+    bottom: -10rem;
     z-index: 1;
     pointer-events: none;
 }
@@ -126,7 +133,7 @@ h1 .ausrufe {
 #landing .topRightCircle {
     position: absolute;
     right: 0;
-    top: -10rem;
+    top: 0;
     z-index: 1;
     pointer-events: none;
 }
@@ -168,7 +175,7 @@ h1 .ausrufe {
     background-color: #e0afa0;
 }
 
-/* === about section === */
+/* === ABOUT SECTION === */
 #about {
     width: 100%;
     display: flex;
@@ -178,6 +185,7 @@ h1 .ausrufe {
     position: relative;
     color: #bcb8b1;
     padding: 1rem 2rem;
+    z-index: 2;
 }
 
 #about .me {
@@ -185,11 +193,14 @@ h1 .ausrufe {
     border: 1px solid #bcb8b1;
     border-radius: 20px;
     filter: sepia(30%);
+    pointer-events: none;
 }
 
 #about p:nth-of-type(1) {
     font-weight: 700;
     color: #463f3a;
+    margin-bottom: 1.5rem;
+    word-break: break-all;
 }
 
 #about .leftBottomCircle {
@@ -224,9 +235,8 @@ h1 .ausrufe {
     color: #bcb8b1;
 }
 
-/* === projekte section === */
+/* === PROJEKTE SECTION === */
 #projekte {
-    height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -234,7 +244,7 @@ h1 .ausrufe {
     background-color: #bcb8b1;
     position: relative;
     color: #463f3a;
-    padding: 0 5rem;
+    padding: 0.55rem 5rem;
 }
 
 #projekte .card {
@@ -265,10 +275,9 @@ h1 .ausrufe {
 #projekte .centerBg {
     position: absolute;
     right: 25rem;
-    top: 0;
+    top: -1rem;
     z-index: 1;
     pointer-events: none;
 }
 
-/* === footer section === */
-
+/* === FOOTER SECTION === */
