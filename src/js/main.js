@@ -10,4 +10,4 @@ const rotateObject = (element, angle, duration) => {
 };
   
 const element = document.querySelector('.leftBottomCircle');
-rotateObject(element, 1, 60);
+rotateObject(element, 1, 45);
