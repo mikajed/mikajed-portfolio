@@ -33,14 +33,14 @@ h1 .ausrufe {
     font-size: 6.75rem;
 }
 
-h3 {
+/* h3 {
     font-size: 3rem;
     color: #bcb8b1;
     text-transform: lowercase;
     text-decoration: #bcb8b1 wavy underline;
-}
+} */
 
-/* COLUMNS */
+/* === COLUMNS === */
 .two-column {
     width: 100%;
     display: flex;
@@ -69,8 +69,8 @@ h3 {
     justify-content: center;
 }
 
-/* NAV BAR */
-.navbar {
+/* === NAV BAR === */
+#navbar {
     width: 100%;
     height: 3rem;
     display: flex;
@@ -79,23 +79,23 @@ h3 {
     padding: 3rem 10rem;
 }
 
-.navbar .logo img {
+#navbar .logo img {
     width: 3rem;
     height: 3rem;
-    transition: transform 0.3s ease;
+    transition: 0.3s ease;
 }
 
-.navbar .logo img:hover {
-    transform: rotate(10deg);
+#navbar .logo img:hover {
+    transform: rotate(10deg) scale(1.2);
 }
 
-.navbar nav {
+#navbar nav {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
 
-.navbar nav a {
+#navbar nav a {
     color: #f4f3ee;
     text-decoration: none;
     text-transform: uppercase;
@@ -104,16 +104,16 @@ h3 {
     z-index: 2;
 }
 
-.navbar nav a:hover {
+#navbar nav a:hover {
     color: #e0afa0;
 }
 
-.navbar nav .active {
+#navbar nav .active {
     color: #e0afa0;
     border-bottom: 1px solid #e0afa0;
 }
 
-/* HERO */
+/* === HERO SECTION === */
 #landing {
     height: 92vh;
     width: 100%;
@@ -233,6 +233,12 @@ h3 {
     width: 2.5rem;
     height: 2.5rem;
     color: #bcb8b1;
+    transition: 0.3s ease;
+}
+
+#about .socialIcons svg:hover {
+    color: #463f3a;
+    transform: rotate(10deg);
 }
 
 /* === PROJEKTE SECTION === */
@@ -281,3 +287,50 @@ h3 {
 }
 
 /* === FOOTER SECTION === */
+#footer {
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: #463f3a;
+}
+
+#footer .logo img {
+    width: 2rem;
+    height: 2rem;
+    transition: 0.3s ease;
+}
+
+#footer .logo img:hover {
+    transform: rotate(10deg) scale(1.2);
+}
+
+#footer ul {
+    display: flex;
+    gap: 1rem;
+}
+
+#footer ul li {
+    list-style: none;
+}
+
+#footer ul li a {
+    color: #bcb8b1;
+    text-decoration: none;
+}
+
+#footer ul li a:hover {
+    text-decoration: underline;
+}
+
+#footer .socialIcons svg {
+    color: #bcb8b1;
+    transition: 0.3s ease;
+}
+
+#footer .socialIcons svg:hover {
+    color: #e0afa0;
+    transform: rotate(10deg);
+}
