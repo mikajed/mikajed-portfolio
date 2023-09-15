@@ -70,6 +70,10 @@ p {
     color: #403b3b;
 }
 
+.name {
+    color: #d4712f;
+}
+
 main {
     display: flex;
     flex-direction: column;
