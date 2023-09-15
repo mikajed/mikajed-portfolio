@@ -15,7 +15,8 @@
     src: local(''),
     url('../fonts/Ubuntu/Ubuntu-Regular.ttf'),
     url('../fonts/Ubuntu/Ubuntu-Medium.ttf'),
-    url('../fonts/Ubuntu/Ubuntu-Bold.ttf')
+    url('../fonts/Ubuntu/Ubuntu-Bold.ttf'),
+    url('../fonts/Ubuntu/Ubuntu-Light.ttf')
 }
 
 * {
@@ -59,7 +60,7 @@ h3 {
 }
 
 h4 {
-    font-family: 'Indie Flower';
+    font-family: 'Ubuntu';
     color: #877c7c;
     font-size: 1.4rem;
 }
@@ -146,6 +147,7 @@ ul li a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 2rem 0;
 }
 .card-container {
     display: flex;
