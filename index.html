@@ -9,28 +9,33 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="#"><img src="./src/images/m-logo.png" alt="logo"></a>
+            <a href="index.html"><img src="./src/images/m-logo.png" alt="logo"></a>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#about">About</a></li>
             </ul>
             <div class="social-icons">
-                <a href="#"><img src="./src/images/github.png" alt="github link"></a>
-                <a href="#"><img src="./src/images/linkedin.png" alt="linkedin link"></a>
+                <a href="https://github.com/mikajed" target="_blank"><img src="./src/images/github.png" alt="github link"></a>
+                <a href="https://www.linkedin.com/in/jedrzejczyk-michael/" target="_blank"><img src="./src/images/linkedin.png" alt="linkedin link"></a>
             </div>
         </nav>
     </header>
     <main>
-        <section class="hero">
+        <section id="hero">
             <div class="hero-content">
-                <h1>Hi, I am Michael</h1>
-                <h2>I code, <span>I design</span></h2>
-                <a href="#" class="contact">contact</a>
+                <div class="left-col">
+                    <h1>Hi, I am Michael</h1>
+                    <h2>I code, <span>I design</span></h2>
+                    <a href="#" class="contact">contact</a>
+                </div>
+                <div class="right-col">
+                    <!-- <img src="./src/images/working-with-laptop.png" alt=""> -->
+                </div>
             </div>
         </section>
         <!-- PROJECTS SECTION -->
-        <section class="projects">
+        <section id="projects">
             <h3>Projects</h3>
             <div class="card-container">
                 <div class="card">
@@ -54,9 +59,46 @@
                         <p>HTML | CSS | JavaScript</p>
                         <div class="social-icons">
                             <a href="https://github.com/mikajed/workappholic" target="_blank"><img src="./src/images/github.png" alt="github link"></a>
-                            <a href="https://mikajed.github.io/workappholic/" target="_blank"><img src="./src/images/web.png" alt="linkedin link"></a>
+                            <a href="https://mikajed.github.io/workappholic/" target="_blank"><img src="./src/images/web.png" alt="web link"></a>
                         </div>
                     </div>
+                </div>
+                <div class="card">
+                    <div class="card-top">
+                        <img src="./src/images/startpage.png" alt="startpage">
+                    </div>
+                    <div class="card-bottom">
+                        <h4>Startpage</h4>
+                        <p>HTML | CSS | JavaScript</p>
+                        <div class="social-icons">
+                            <a href="https://github.com/mikajed/frontpage" target="_blank"><img src="./src/images/github.png" alt="github link"></a>
+                            <a href="https://mikajed.github.io/frontpage/" target="_blank"><img src="./src/images/web.png" alt="web link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="border">
+        </section>
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <h3>Nice to meet you</h3>
+            <div class="about-content">
+                <div class="left-col">
+                    <p>Hi, ich bin Michael, ein Fachinformatiker in Ausbildung zum 
+                        Anwendungsentwickler. Ich bin ein kreativer und innovativer 
+                        Denker mit einer Leidenschaft für Technologie.</p>
+                    <p>Ich bin immer auf der Suche nach neuen Herausforderungen und 
+                        Möglichkeiten, meine Fähigkeiten zu verbessern.</p>
+                    <div class="tech-stack">
+                        <img src="./src/images/js.png" alt="javascript logo">
+                        <img src="./src/images/css3.png" alt="css logo">
+                        <img src="./src/images/html5.png" alt="html logo">
+                        <img src="./src/images/vs.png" alt="vscode logo">
+                        <img src="./src/images/github_stack.png" alt="github logo">
+                    </div>
+                </div>
+                <div class="right-col">
+                    <img src="./src/images/profile.png" alt="my profile image">
                 </div>
             </div>
         </section>

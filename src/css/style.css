@@ -63,6 +63,11 @@ h4 {
     font-family: 'Ubuntu';
     color: #877c7c;
     font-size: 1.4rem;
+    margin-top: 0.5rem;
+}
+
+p {
+    color: #403b3b;
 }
 
 main {
@@ -72,12 +77,25 @@ main {
     justify-content: center;
 }
 
+section {
+    margin-bottom: 5rem;
+}
+
 .social-icons img {
     transition: 0.3s;
 }
 
 .social-icons img:hover {
     transform: rotate(15deg);
+}
+
+.border {
+    width: 100%;
+    height: 1rem;
+    display: block;
+    border: 0;
+    margin: 5rem 0 0 0;
+    background: url(../images/border.png) no-repeat;
 }
 
 /* -- NAV BAR -- */
@@ -110,18 +128,18 @@ ul li a:hover {
 }
 
 /* -- HERO SECTION -- */
-.hero {
+#hero {
     width: 90%;
-    height: 80vh;
+    height: 90vh;
     padding: 0 3rem;
     display: flex;
-    align-items: center;
-    position: relative;
 }
 
 .hero-content {
-    position: absolute;
-    top: 15rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .hero-content .contact {
@@ -142,7 +160,7 @@ ul li a:hover {
 }
 
 /* -- PROJECTS SECTION -- */
-.projects {
+#projects {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,16 +169,15 @@ ul li a:hover {
 }
 .card-container {
     display: flex;
-    justify-content: space-between;
     gap: 2rem;
-    flex-wrap: wrap;
     padding: 0 1.5rem;
 }
 
 .card {
-    border: 1px dashed #877c7c;
+    /* border: 1px dashed #877c7c; */
     border-radius: 10px;
     overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .card .card-bottom {
@@ -169,4 +186,37 @@ ul li a:hover {
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+}
+
+/* -- ABOUT SECTION -- */
+#about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-content {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-content .left-col {
+    width: 40%;
+}
+
+.about-content .left-col p:nth-of-type(2) {
+    margin-top: 2rem;
+}
+
+.about-content .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.about-content .tech-stack img {
+    width: 5rem;
+    height: auto;
 }
