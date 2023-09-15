@@ -55,6 +55,13 @@ h3 {
     font-family: 'Indie Flower';
     color: #877c7c;
     font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+h4 {
+    font-family: 'Indie Flower';
+    color: #877c7c;
+    font-size: 1.4rem;
 }
 
 main {
@@ -64,6 +71,14 @@ main {
     justify-content: center;
 }
 
+.social-icons img {
+    transition: 0.3s;
+}
+
+.social-icons img:hover {
+    transform: rotate(15deg);
+}
+
 /* -- NAV BAR -- */
 .navbar {
     width: 100%;
@@ -71,14 +86,6 @@ main {
     justify-content: space-between;
     align-items: center;
     padding: 0.7rem 3rem;
-}
-
-.navbar img {
-    transition: 0.3s;
-}
-
-.navbar img:hover {
-    transform: rotate(15deg);
 }
 
 ul {
@@ -134,3 +141,30 @@ ul li a:hover {
 }
 
 /* -- PROJECTS SECTION -- */
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 0 1.5rem;
+}
+
+.card {
+    border: 1px dashed #877c7c;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card .card-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
