@@ -171,11 +171,18 @@ ul li a:hover {
     flex-direction: column;
     padding: 2rem 0;
 }
-.card-container {
+
+/* .card-container {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     padding: 0 1.5rem;
+} */
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
 }
 
 .card {
