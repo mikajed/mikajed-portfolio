@@ -301,4 +301,8 @@ footer p {
     .about-content .left-col {
         width: 80%;
     }
+    .about-content .tech-stack img {
+        width: 4rem;
+        height: auto;
+    }
 }
