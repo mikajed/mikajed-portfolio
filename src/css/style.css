@@ -330,4 +330,12 @@ footer p {
     .navbar .social-icons {
         display: none;
     }
+    footer {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    footer .logo {
+        display: none;
+    }
 }
