@@ -257,6 +257,15 @@ footer p {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
+    .about-content {
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+    .about-content .left-col {
+        width: 70%;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -265,22 +274,31 @@ footer p {
         gap: 2rem;
     }
     .about-content {
-        width: 70%;
+        width: 100%;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
     }
+    .about-content .left-col {
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 480px) {
+    h2 {
+        font-size: 2.5rem;
+    }
     .card-container {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
     .about-content {
-        width: 70%;
+        width: 100%;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
+    }
+    .about-content .left-col {
+        width: 80%;
     }
 }
