@@ -222,6 +222,7 @@ ul li a:hover {
 
 .about-content .tech-stack {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 1rem;
 }
@@ -291,7 +292,7 @@ footer p {
         height: auto;
     }
     .about-content .tech-stack img {
-        width: 3.4rem;
+        width: 4rem;
         height: auto;
     }
 }
@@ -321,8 +322,9 @@ footer p {
         height: auto;
     }
     .about-content .tech-stack img {
-        width: 3.4rem;
-        height: auto;
+        /* width: 3.4rem;
+        height: auto; */
+        display: none;
     }
     .navbar .social-icons {
         display: none;
