@@ -294,9 +294,6 @@ footer p {
         width: 3.4rem;
         height: auto;
     }
-    .navbar .social-icons {
-        display: none;
-    }
 }
 
 @media only screen and (max-width: 480px) {
