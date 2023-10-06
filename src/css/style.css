@@ -158,10 +158,11 @@ ul li a:hover {
 
 .hero-content .contact:hover {
     color: #f5ebe0;
-    background-color: #877c7c;
+    background-color: #d4712f;
     text-decoration: none;
     border-radius: 10px;
     padding: 1rem 2rem;
+    border: 2px solid #d4712f;
 }
 
 /* -- PROJECTS SECTION -- */
@@ -263,9 +264,12 @@ footer p {
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 830px) {
     .navbar {
         padding: 0.5rem 1rem;
+    }
+    .solarsystem {
+        display: none;
     }
     .card-container {
         grid-template-columns: 1fr;

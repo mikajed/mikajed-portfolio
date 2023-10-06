@@ -9,9 +9,7 @@
 
 // solarsystem animate
 const solarSystemImage = document.querySelector('.solarsystem');
-
 let rotatingDegrees = 360;
-
 solarSystemImage.style.transform = `rotate(${rotatingDegrees}deg)`;
 
 function rotateSolarSystem() {
