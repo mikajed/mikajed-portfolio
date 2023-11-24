@@ -225,6 +225,7 @@ ul li a:hover {
 .card:hover {
     color: var(--main-color);
     background-color: var(--darker-font-color);
+    transform: rotate(-2deg) scale(1.08);
 }
 .card:hover h4 {
     color: var(--main-color);
