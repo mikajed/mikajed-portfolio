@@ -10,4 +10,4 @@
 // footer datum setzen
 const yearNow = new Date();
 const yearDate = yearNow.getFullYear().toString();
-document.getElementById('footerDate').innerText = yearDate;
+document.getElementById("footerDate").innerText = yearDate;
